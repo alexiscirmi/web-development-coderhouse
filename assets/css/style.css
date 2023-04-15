@@ -63,15 +63,23 @@ p {
 }
 
 .side-image {
-  margin: 25px auto;
-  text-align: center;
+  display: flex;
   box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  max-width: 85%;
+  height: auto;
 }
 
 @media (max-width: 768px) {
   .side-image {
     display: flex;
-    max-width: 70%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .sticky-image {
+    position: sticky;
+    top: 110px;
   }
 }
 
@@ -124,7 +132,6 @@ body.contacto {
 .sp-img {
   max-width: 350px;
   height: auto;
-  margin-top: 10px;
 }
 
 /* Propiedades página de Preguntas frecuentes */
@@ -138,11 +145,4 @@ body.contacto {
 .answer,
 .answer i {
   color: rgb(0, 0, 0, 0.4);
-}
-
-@media (min-width: 768px) {
-  .sticky-image {
-    position: sticky;
-    top: 107px;
-  }
 }
