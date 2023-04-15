@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+  <!-- Font Awesome Icons - Para iconos de footer -->
+  <script src="https://kit.fontawesome.com/1bc3c59861.js" crossorigin="anonymous"></script>
+  <!-- Google Fonts - Para letra de navbar y otros elementos -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="../img/bsp2.png" type="image/x-icon">
+</head>
+
+<body class="contacto">
+
+  <!-- Navbar -->
+
+  <header class="sticky-top">
+    <nav class="navbar navbar-expand-md p-1">
+      <div class="container-fluid container-xl col-12">
+        <div>
+          <a class="navbar-brand d-flex flex-row flex-nowrap me-0" href="../../index.html"><img
+              class="logo align-self-center pe-2" src="../img/bsp2.png" alt="Logo de Baby Starter Pack">baby starter
+            pack</a>
+        </div>
+        <button class="navbar-toggler p-1 px-sm-3" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ms-5" id="collapsibleNavbar">
+          <ul class="navbar-nav column-gap-5">
+            <li class="nav-item">
+              <a class="nav-link" href="productos.html">productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faq.html">faq</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contacto.html">contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Texto e imagen principales -->
+
+  <main class="container-fluid container-xl d-flex flex-wrap flex-row">
+
+    <div class="col-md-7 col-12 order-1">
+      <h1>Contacto</h1>
+      <p>Dejanos tu consulta o sugerencia:</p>
+      <form class="container-fluid mt-1 px-0 pe-md-2">
+        <div class="form-group my-1">
+          <label for="nombre">Nombre:</label>
+          <input class="form-control" type="text" id="nombre" placeholder="Nombre" required>
+        </div>
+        <div class="form-group my-1">
+          <label for="email">Correo electrónico:</label>
+          <input class="form-control" type="email" id="email" placeholder="correo@electronico.com" required>
+        </div>
+        <div class="form-group my-1">
+          <textarea class="form-control" id="mensaje" cols="30" rows="10"
+            placeholder="Escribí tu mensaje..."></textarea>
+        </div>
+        <div class="form-group my-1">
+          <input class="btn btn-light" type="submit" value="Enviar">
+        </div>
+      </form>
+    </div>
+
+    <div class="col-md-5 col-12 container-fluid order-2">
+      <img class="img-fluid side-image rounded-5 sticky-image" src="../img/baby.png" alt="Imagen de bebé riendo">
+    </div>
+
+  </main>
+
+  <!-- Botón flotante de WhatsApp -->
+
+  <div>
+    <a href="#" onclick="alert('(Link a chat de WhatsApp)')"><i class="fa-brands fa-whatsapp fixed-bottom"></i></a>
+  </div>
+
+  <!-- Footer -->
+
+  <footer class="container-fluid mt-3">
+    <ul class="container-fluid d-flex justify-content-center align-items-center h-100">
+      <li>
+        <a href="#" onclick="alert('(Link a página de Facebook)')"><i class="fa-brands fa-facebook"
+            style="font-size: 2em;"></i></a>
+      </li>
+      <li>
+        <a href="#" onclick="alert('(Link a página de Instagram)')"><i class="fa-brands fa-instagram"
+            style="font-size: 2em;"></i></a>
+      </li>
+    </ul>
+  </footer>
+
+  <!-- Bootstrap JS script -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

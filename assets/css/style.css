@@ -1,0 +1,148 @@
+/* Propiedades generales */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Didact Gothic', sans-serif;
+  color: rgb(0, 0, 0, 0.6);
+  overscroll-behavior-y: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  margin-top: 10px;
+}
+
+/* Propiedades de Navbar */
+
+.navbar {
+  background-color: #ffd4d9;
+  border-bottom: solid 0.5px rgb(0, 0, 0, 0.1);
+}
+
+.nav-item {
+  margin: 0;
+}
+
+.nav-link {
+  font-size: 1.1em;
+}
+
+.navbar-brand {
+  font-size: 1.35em;
+}
+
+.logo {
+  width: auto;
+  height: 32px;
+}
+
+/* Propiedades de body */
+
+main {
+  min-height: 90vh;
+  margin-top: 30px;
+  justify-content: start;
+  text-align: start;
+}
+
+h1,
+h2 {
+  margin-right: 20px;
+  letter-spacing: 1px;
+}
+
+p {
+  margin: 10px 30px 0 0;
+  font-size: larger;
+  text-align: justify;
+}
+
+.side-image {
+  margin: 25px auto;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+@media (max-width: 768px) {
+  .side-image {
+    display: flex;
+    max-width: 70%;
+  }
+}
+
+/* Propiedades botón WhatsApp */
+
+.fa-whatsapp {
+  font-size: 3.5em;
+  left: auto;
+  margin: 0 15px 15px 0;
+}
+
+/* Propiedades de footer */
+
+footer {
+  background-color: rgb(0, 0, 0, 0.05);
+  height: 3.5em;
+  border-top: solid 0.5px rgb(0, 0, 0, 0.1);
+}
+
+footer ul li {
+  margin: 0;
+  list-style: none;
+  padding: 0 10px;
+}
+
+/* Backgrounds de las páginas */
+
+body.inicio {
+  background-color: #e1f3ff;
+}
+
+body.productos {
+  background-color: #ffe5d9;
+}
+
+body.faq {
+  background-color: #ffe1e7;
+}
+
+body.nosotros {
+  background-color: #D8E2DC;
+}
+
+body.contacto {
+  background-color: #CDB4DB;
+}
+
+/* Propiedades página de Productos */
+
+.sp-img {
+  max-width: 350px;
+  height: auto;
+  margin-top: 10px;
+}
+
+/* Propiedades página de Preguntas frecuentes */
+
+.question {
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.answer,
+.answer i {
+  color: rgb(0, 0, 0, 0.4);
+}
+
+@media (min-width: 768px) {
+  .sticky-image {
+    position: sticky;
+    top: 107px;
+  }
+}
