@@ -76,7 +76,7 @@ p {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .sticky-image {
     position: sticky;
     top: 110px;
@@ -129,9 +129,11 @@ body.contacto {
 
 /* Propiedades página de Productos */
 
-.sp-img {
-  max-width: 350px;
-  height: auto;
+@media (min-width: 769px) {
+  .sp-img {
+    max-width: 350px;
+    height: auto;
+  }
 }
 
 /* Propiedades página de Preguntas frecuentes */
