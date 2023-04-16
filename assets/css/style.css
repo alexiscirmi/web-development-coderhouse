@@ -129,11 +129,15 @@ body.contacto {
 
 /* Propiedades página de Productos */
 
-@media (min-width: 769px) {
+@media (min-width: 576px) and (max-width: 768px) {
   .sp-img {
-    max-width: 350px;
+    max-width: 100%;
     height: auto;
   }
+}
+
+figcaption {
+  color: rgb(0, 0, 0, 0.3);
 }
 
 /* Propiedades página de Preguntas frecuentes */
