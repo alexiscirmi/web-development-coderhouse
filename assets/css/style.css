@@ -154,6 +154,19 @@ footer ul li {
   color: black;
 }
 
+.card-title {
+  margin-bottom: 1em;
+}
+
+.card {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+h5 {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
 /* Propiedades página de Productos */
 
 .sp-img {
