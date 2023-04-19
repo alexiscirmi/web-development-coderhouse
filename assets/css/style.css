@@ -1,4 +1,4 @@
-/* Propiedades generales */
+/* General Properties */
 
 * {
   margin: 0;
@@ -50,7 +50,7 @@ body.contacto {
   background-color: #CDB4DB;
 }
 
-/* Propiedades de Navbar */
+/* Navbar Properties */
 
 .navbar {
   background-color: #ffd4d9;
@@ -74,7 +74,7 @@ body.contacto {
   height: 32px;
 }
 
-/* Propiedades de body */
+/* Body Properties */
 
 main {
   margin-top: 30px;
@@ -117,7 +117,7 @@ p {
   }
 }
 
-/* Propiedades botón WhatsApp */
+/* WhatsApp button Properties */
 
 .whatsapp-floating-icon {
   font-size: 3.5rem;
@@ -125,7 +125,7 @@ p {
   margin-right: 15px;
 }
 
-/* Propiedades de footer */
+/* Footer Properties */
 
 footer {
   background-color: rgb(0, 0, 0, 0.05);
@@ -140,9 +140,9 @@ footer ul li {
   padding: 0 10px;
 }
 
-/* Propiedades de cards */
+/* Cards Properties */
 
-#index-cards {
+#price-cards {
   background-color: #ffe5d9;
   border-top: solid 0.5px rgb(0, 0, 0, 0.1);
   border-bottom: solid 0.5px rgb(0, 0, 0, 0.1);
@@ -166,7 +166,7 @@ h5 {
   font-weight: bold;
 }
 
-/* Propiedades página de Productos */
+/* "Productos" webpage Properties */
 
 .sp-img {
   max-width: 70%;
@@ -183,7 +183,7 @@ figcaption {
   color: rgb(0, 0, 0, 0.3);
 }
 
-/* Propiedades página de Preguntas frecuentes */
+/* "Preguntas frecuentes" webpage Properties */
 
 .question {
   margin-top: 30px;
