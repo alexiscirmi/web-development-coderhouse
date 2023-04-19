@@ -90,7 +90,7 @@ h2 {
 }
 
 p {
-  margin: 10px 30px 0 0;
+  margin-top: 10px;
   font-size: larger;
   text-align: justify;
 }
@@ -119,10 +119,10 @@ p {
 
 /* Propiedades botón WhatsApp */
 
-.fa-whatsapp {
+.whatsapp-floating-icon {
   font-size: 3.5em;
   left: auto;
-  margin: 0 15px 15px 0;
+  margin-right: 15px;
 }
 
 /* Propiedades de footer */
