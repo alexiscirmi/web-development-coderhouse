@@ -5,7 +5,6 @@
   padding: 0;
   font-family: 'Didact Gothic', sans-serif;
   color: rgb(0, 0, 0, 0.6);
-  overscroll-behavior-y: none;
 }
 
 html {
@@ -30,9 +29,9 @@ li {
   font-size: large;
 }
 
-/* body.index {
+body.index {
   background-color: #e1f3ff;
-} */
+}
 
 body.index {
   background-image: url(../img/background1.jpg);
