@@ -30,17 +30,17 @@ li {
   font-size: large;
 }
 
-body.index {
-  background-color: #e1f3ff;
-}
-
 /* body.index {
+  background-color: #e1f3ff;
+} */
+
+body.index {
   background-image: url(../img/background1.jpg);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-} */
+}
 
 body.productos {
   background-color: #ffe5d9;
