@@ -58,6 +58,7 @@ body.contacto {
   background-color: #CDB4DB;
 }
 
+
 /* Navbar Properties */
 
 .navbar {
@@ -81,6 +82,7 @@ body.contacto {
   width: auto;
   height: 32px;
 }
+
 
 /* Body Properties */
 
@@ -125,6 +127,7 @@ p {
   }
 }
 
+
 /* Index webpage Properties */
 
 h4 {
@@ -159,6 +162,7 @@ h4 {
   height: 55px;
 }
 
+
 /* "Productos" webpage Properties */
 
 .sp-img {
@@ -176,6 +180,7 @@ figcaption {
   color: rgb(0, 0, 0, 0.3);
 }
 
+
 /* "Preguntas frecuentes" webpage Properties */
 
 .question {
@@ -189,6 +194,7 @@ figcaption {
   color: rgb(0, 0, 0, 0.4);
 }
 
+
 /* WhatsApp button Properties */
 
 .whatsapp-floating-icon {
@@ -196,6 +202,7 @@ figcaption {
   left: auto;
   margin-right: 15px;
 }
+
 
 /* Footer Properties */
 
