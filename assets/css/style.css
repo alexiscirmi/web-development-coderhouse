@@ -129,6 +129,11 @@ p {
 
 #price-cards {
   background-color: #ffe5d9;
+  background-image: url(../img/backgroundCards.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-top: solid 0.5px rgb(0, 0, 0, 0.1);
   border-bottom: solid 0.5px rgb(0, 0, 0, 0.1);
 }
