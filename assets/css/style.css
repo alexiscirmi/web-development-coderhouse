@@ -127,29 +127,36 @@ p {
 
 /* Index webpage Properties */
 
+h4 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
 #price-cards {
   background-color: #ffe5d9;
-  background-image: url(../img/backgroundCards.jpg);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   border-top: solid 0.5px rgb(0, 0, 0, 0.1);
   border-bottom: solid 0.5px rgb(0, 0, 0, 0.1);
+}
+
+.card {
+  max-width: 18rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 1);
+}
+
+.card-title {
+  height: 50px;
+  word-spacing: -3px;
+}
+
+.card-text {
+  height: 45px;
 }
 
 .card-price {
   font-size: 2.5rem;
   font-weight: bold;
   color: black;
-}
-
-.card-title {
-  margin-bottom: 1.25rem;
-}
-
-.card {
-  box-shadow: 0 0 5px rgba(0, 0, 0, 1);
+  height: 55px;
 }
 
 /* "Productos" webpage Properties */
