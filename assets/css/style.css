@@ -127,10 +127,6 @@ p {
 
 /* Index webpage Properties */
 
-body.index main div * {
-  color: rgb(0, 0, 0, 0.7);
-}
-
 #price-cards {
   background-color: #ffe5d9;
   border-top: solid 0.5px rgb(0, 0, 0, 0.1);
