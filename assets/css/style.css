@@ -160,7 +160,6 @@ h4 {
 
 .sp-img {
   box-shadow: 0 0 5px rgba(0, 0, 0, 1);
-  max-width: 80%;
 }
 
 .starter-packs-table * {
@@ -175,12 +174,20 @@ h4 {
 }
 
 @media (max-width: 576px) {
+  .sp-img {
+    max-width: 100%;
+  }
+
   .starter-packs-table * {
     font-size: small;
   }
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
+  .sp-img {
+    max-width: 90%;
+  }
+
   .starter-packs-table * {
     font-size: medium;
   }
@@ -191,6 +198,10 @@ h4 {
 }
 
 @media (min-width: 769px) {
+  .sp-img {
+    max-width: 80%;
+  }
+
   .starter-packs-table h2 {
     font-size: 1.5rem;
   }
