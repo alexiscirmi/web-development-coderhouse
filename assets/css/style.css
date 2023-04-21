@@ -163,17 +163,6 @@ h4 {
   max-width: 80%;
 }
 
-/* @media (min-width: 576px) and (max-width: 768px) {
-  .sp-img {
-    max-width: 100%;
-    height: auto;
-  }
-}
-
-figcaption {
-  color: rgb(0, 0, 0, 0.3);
-} */
-
 .starter-packs-table * {
   text-align: center;
   margin: 0;
@@ -184,6 +173,26 @@ figcaption {
 .starter-packs-table h2 {
   font-size: 1.25rem;
   font-weight: bold;
+}
+
+.fa-circle-check {
+  background-color: #D8E2DC;
+  padding: 0;
+  border-radius: 100%;
+  font-size: 2em;
+}
+
+.fa-circle-xmark {
+  background-color: #f4acb7;
+  padding: 0;
+  border-radius: 100%;
+  font-size: 2em;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
 }
 
 /* "Preguntas frecuentes" webpage Properties */
