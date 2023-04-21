@@ -159,10 +159,11 @@ h4 {
 /* "Productos" webpage Properties */
 
 .sp-img {
-  max-width: 70%;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 1);
+  max-width: 80%;
 }
 
-@media (min-width: 576px) and (max-width: 768px) {
+/* @media (min-width: 576px) and (max-width: 768px) {
   .sp-img {
     max-width: 100%;
     height: auto;
@@ -171,8 +172,18 @@ h4 {
 
 figcaption {
   color: rgb(0, 0, 0, 0.3);
+} */
+
+.starter-packs-table * {
+  text-align: center;
+  margin: auto;
+  padding: 0.25rem;
 }
 
+.starter-packs-table h2 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
 
 /* "Preguntas frecuentes" webpage Properties */
 
