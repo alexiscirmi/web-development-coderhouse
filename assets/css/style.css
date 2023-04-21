@@ -204,7 +204,8 @@ h4 {
 }
 
 .answer,
-.answer i {
+.answer i,
+.disclaimer {
   color: rgb(0, 0, 0, 0.4);
 }
 
