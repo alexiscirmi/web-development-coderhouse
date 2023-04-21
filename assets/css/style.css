@@ -159,20 +159,41 @@ h4 {
 /* "Productos" webpage Properties */
 
 .sp-img {
-  max-width: 70%;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 1);
+  max-width: 80%;
 }
 
-@media (min-width: 576px) and (max-width: 768px) {
-  .sp-img {
-    max-width: 100%;
-    height: auto;
-  }
+.starter-packs-table * {
+  text-align: center;
+  margin: 0;
+  padding: 0.25rem;
+  font-size: medium;
 }
 
-figcaption {
-  color: rgb(0, 0, 0, 0.3);
+.starter-packs-table h2 {
+  font-size: 1.25rem;
+  font-weight: bold;
 }
 
+.fa-circle-check {
+  background-color: #D8E2DC;
+  padding: 0;
+  border-radius: 100%;
+  font-size: 2em;
+}
+
+.fa-circle-xmark {
+  background-color: #f4acb7;
+  padding: 0;
+  border-radius: 100%;
+  font-size: 2em;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+}
 
 /* "Preguntas frecuentes" webpage Properties */
 
