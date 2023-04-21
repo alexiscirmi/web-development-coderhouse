@@ -159,20 +159,45 @@ h4 {
 /* "Productos" webpage Properties */
 
 .sp-img {
-  box-shadow: 0 0 1px rgba(0, 0, 0, 1);
+  box-shadow: 0 0 0px rgba(0, 0, 0, 1);
   max-width: 80%;
 }
 
 .starter-packs-table * {
   text-align: center;
   margin: 0;
-  padding: 0.25rem;
-  font-size: medium;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
 .starter-packs-table h2 {
-  font-size: 1.25rem;
   font-weight: bold;
+}
+
+@media (max-width: 576px) {
+  .starter-packs-table * {
+    font-size: small;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .starter-packs-table * {
+    font-size: medium;
+  }
+
+  .starter-packs-table h2 {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .starter-packs-table * {
+    /* font-size: medium; */
+  }
+
+  .starter-packs-table h2 {
+    font-size: 1.5rem;
+  }
 }
 
 .fa-circle-check {
