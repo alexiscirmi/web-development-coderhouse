@@ -176,8 +176,9 @@ figcaption {
 
 .starter-packs-table * {
   text-align: center;
-  margin: auto;
+  margin: 0;
   padding: 0.25rem;
+  font-size: medium;
 }
 
 .starter-packs-table h2 {
