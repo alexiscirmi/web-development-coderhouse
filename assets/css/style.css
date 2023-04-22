@@ -105,7 +105,7 @@ p {
   max-width: 85%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .side-image {
     display: flex;
     margin: auto;
@@ -113,7 +113,7 @@ p {
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .sticky-image {
     position: sticky;
     top: 110px;
@@ -173,7 +173,7 @@ h4 {
   font-weight: bold;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 575px) {
   .sp-img {
     max-width: 100%;
   }
@@ -183,7 +183,7 @@ h4 {
   }
 }
 
-@media (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 767px) {
   .sp-img {
     max-width: 90%;
   }
@@ -197,7 +197,7 @@ h4 {
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .sp-img {
     max-width: 80%;
   }
@@ -226,6 +226,7 @@ h4 {
   font-weight: bold;
   color: black;
 }
+
 
 /* "Preguntas frecuentes" webpage Properties */
 
