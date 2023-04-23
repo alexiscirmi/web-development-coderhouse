@@ -1,0 +1,70 @@
+/* "Productos" webpage Properties */
+
+.sp-img {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 1);
+}
+
+.starter-packs-table * {
+  text-align: center;
+  margin: 0;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.starter-packs-table h2 {
+  font-weight: bold;
+}
+
+@media (max-width: 575px) {
+  .sp-img {
+    max-width: 100%;
+  }
+
+  .starter-packs-table * {
+    font-size: small;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .sp-img {
+    max-width: 90%;
+  }
+
+  .starter-packs-table * {
+    font-size: medium;
+  }
+
+  .starter-packs-table h2 {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .sp-img {
+    max-width: 80%;
+  }
+
+  .starter-packs-table h2 {
+    font-size: 1.5rem;
+  }
+}
+
+.fa-circle-check {
+  background-color: #D8E2DC;
+  padding: 0;
+  border-radius: 100%;
+  font-size: 2em;
+}
+
+.fa-circle-xmark {
+  background-color: #f4acb7;
+  padding: 0;
+  border-radius: 100%;
+  font-size: 2em;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+}

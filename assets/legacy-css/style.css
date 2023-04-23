@@ -1,9 +1,10 @@
 /* General Properties */
+
 * {
   margin: 0;
   padding: 0;
-  font-family: "Didact Gothic", sans-serif;
-  color: rgba(0, 0, 0, 0.6);
+  font-family: 'Didact Gothic', sans-serif;
+  color: rgb(0, 0, 0, 0.6);
 }
 
 html {
@@ -50,7 +51,34 @@ body.contacto {
   background-color: #CDB4DB;
 }
 
+
+/* Navbar Properties */
+
+.navbar {
+  background-color: #ffd4d9;
+  border-bottom: solid 0.5px rgb(0, 0, 0, 0.1);
+}
+
+.nav-item {
+  margin: 0;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+}
+
+.navbar-brand {
+  font-size: 1.35rem;
+}
+
+.logo {
+  width: auto;
+  height: 32px;
+}
+
+
 /* Body Properties */
+
 main {
   margin-top: 1.5rem;
   justify-content: start;
@@ -73,7 +101,7 @@ p {
 
 .side-image {
   display: flex;
-  box-shadow: 0 0 5px rgb(0, 0, 0);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 1);
   max-width: 85%;
 }
 
@@ -84,36 +112,17 @@ p {
     max-width: 70%;
   }
 }
+
 @media (min-width: 768px) {
   .sticky-image {
     position: sticky;
     top: 110px;
   }
 }
-/* Navbar Properties */
-.navbar {
-  background-color: #ffd4d9;
-  border-bottom: solid 0.5px rgba(0, 0, 0, 0.1);
-}
 
-.nav-item {
-  margin: 0;
-}
-
-.nav-link {
-  font-size: 1.1rem;
-}
-
-.navbar-brand {
-  font-size: 1.35rem;
-}
-
-.logo {
-  width: auto;
-  height: 32px;
-}
 
 /* Index webpage Properties */
+
 h4 {
   font-size: 1.25rem;
   font-weight: bold;
@@ -121,13 +130,13 @@ h4 {
 
 #price-cards {
   background-color: #ffe5d9;
-  border-top: solid 0.5px rgba(0, 0, 0, 0.1);
-  border-bottom: solid 0.5px rgba(0, 0, 0, 0.1);
+  border-top: solid 0.5px rgb(0, 0, 0, 0.1);
+  border-bottom: solid 0.5px rgb(0, 0, 0, 0.1);
 }
 
 .card {
   max-width: 18rem;
-  box-shadow: 0 0 5px rgb(0, 0, 0);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 1);
 }
 
 .card-title {
@@ -146,9 +155,11 @@ h4 {
   height: 55px;
 }
 
+
 /* "Productos" webpage Properties */
+
 .sp-img {
-  box-shadow: 0 0 5px rgb(0, 0, 0);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 1);
 }
 
 .starter-packs-table * {
@@ -166,29 +177,36 @@ h4 {
   .sp-img {
     max-width: 100%;
   }
+
   .starter-packs-table * {
     font-size: small;
   }
 }
+
 @media (min-width: 576px) and (max-width: 767px) {
   .sp-img {
     max-width: 90%;
   }
+
   .starter-packs-table * {
     font-size: medium;
   }
+
   .starter-packs-table h2 {
     font-size: 1.25rem;
   }
 }
+
 @media (min-width: 768px) {
   .sp-img {
     max-width: 80%;
   }
+
   .starter-packs-table h2 {
     font-size: 1.5rem;
   }
 }
+
 .fa-circle-check {
   background-color: #D8E2DC;
   padding: 0;
@@ -209,7 +227,9 @@ h4 {
   color: black;
 }
 
+
 /* "Preguntas frecuentes" webpage Properties */
+
 .question {
   margin-top: 30px;
   font-weight: bold;
@@ -219,20 +239,24 @@ h4 {
 .answer,
 .answer i,
 .disclaimer {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgb(0, 0, 0, 0.4);
 }
 
+
 /* WhatsApp button Properties */
+
 .whatsapp-floating-icon {
   font-size: 3.5rem;
   left: auto;
   margin-right: 15px;
 }
 
+
 /* Footer Properties */
+
 footer {
-  background-color: rgba(0, 0, 0, 0.05);
-  border-top: solid 0.5px rgba(0, 0, 0, 0.1);
+  background-color: rgb(0, 0, 0, 0.05);
+  border-top: solid 0.5px rgb(0, 0, 0, 0.1);
   margin-top: auto;
   padding: 0.5rem;
 }
@@ -242,5 +266,3 @@ footer ul li {
   list-style: none;
   padding: 0 10px;
 }
-
-/*# sourceMappingURL=style.css.map */
