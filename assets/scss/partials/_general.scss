@@ -29,26 +29,28 @@ li {
   font-size: large;
 }
 
-body.index {
-  background-color: #e1f3ff;
-  background-image: linear-gradient(to bottom right, #e1f3ff, #ffd4d9);
-  background-attachment: fixed;
-}
+body {
+  &.index {
+    background-color: #e1f3ff;
+    background-image: linear-gradient(to bottom right, #e1f3ff, #ffd4d9);
+    background-attachment: fixed;
+  }
 
-body.productos {
-  background-color: #ffe5d9;
-}
+  &.productos {
+    background-color: #ffe5d9;
+  }
 
-body.faq {
-  background-color: #ffe1e7;
-}
+  &.faq {
+    background-color: #ffe1e7;
+  }
 
-body.nosotros {
-  background-color: #D8E2DC;
-}
+  &.nosotros {
+    background-color: #D8E2DC;
+  }
 
-body.contacto {
-  background-color: #CDB4DB;
+  &.contacto {
+    background-color: #CDB4DB;
+  }
 }
 
 /* Body Properties */
