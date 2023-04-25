@@ -28,22 +28,28 @@ li {
   font-size: large;
 }
 
+body {
+  background-attachment: fixed;
+}
 body.index {
   background-color: #e1f3ff;
   background-image: linear-gradient(to bottom right, #e1f3ff, #ffd4d9);
-  background-attachment: fixed;
 }
 body.productos {
   background-color: #ffe5d9;
+  background-image: linear-gradient(to bottom right, #ffe5d9, #f7d1cd);
 }
 body.faq {
   background-color: #ffe1e7;
+  background-image: linear-gradient(to bottom right, #ffe1e7, #ffcad4);
 }
 body.nosotros {
   background-color: #D8E2DC;
+  background-image: linear-gradient(to bottom right, #D8E2DC, #d0f4de);
 }
 body.contacto {
   background-color: #CDB4DB;
+  background-image: linear-gradient(to bottom right, #CDB4DB, #aaa1c8);
 }
 
 /* Body Properties */
