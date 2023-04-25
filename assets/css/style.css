@@ -16,19 +16,6 @@ body {
   max-width: 100%;
   display: flex;
   flex-flow: column;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
-li {
-  margin-top: 10px;
-  font-size: large;
-}
-
-body {
   background-attachment: fixed;
 }
 body.index {
@@ -52,7 +39,6 @@ body.contacto {
   background-image: linear-gradient(to bottom right, #CDB4DB, #aaa1c8);
 }
 
-/* Body Properties */
 main {
   margin-top: 1.5rem;
   justify-content: start;
@@ -67,10 +53,25 @@ h2 {
   letter-spacing: 1px;
 }
 
+h4 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
 p {
   margin-top: 10px;
   font-size: larger;
   text-align: justify;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  margin-top: 10px;
+  font-size: large;
 }
 
 .side-image {
@@ -78,35 +79,35 @@ p {
   box-shadow: 0 0 5px rgb(0, 0, 0);
   max-width: 85%;
 }
-
 @media (max-width: 767px) {
   .side-image {
     display: flex;
     margin: auto;
-    max-width: 70%;
+    max-width: 60%;
   }
 }
 @media (min-width: 768px) {
-  .sticky-image {
+  .side-image {
     position: sticky;
     top: 110px;
   }
 }
+
 /* Navbar Properties */
-.navbar {
+.navbar-custom {
   background-color: #ffd4d9;
   border-bottom: solid 0.5px rgba(0, 0, 0, 0.1);
 }
 
-.nav-item {
+.nav-item-custom {
   margin: 0;
 }
 
-.nav-link {
+.nav-link-custom {
   font-size: 1.1rem;
 }
 
-.navbar-brand {
+.navbar-brand-custom {
   font-size: 1.35rem;
 }
 
@@ -116,12 +117,7 @@ p {
 }
 
 /* Index webpage Properties */
-h4 {
-  font-size: 1.25rem;
-  font-weight: bold;
-}
-
-#price-cards {
+.price-cards {
   background-color: #ffe5d9;
   border-top: solid 0.5px rgba(0, 0, 0, 0.1);
   border-bottom: solid 0.5px rgba(0, 0, 0, 0.1);
