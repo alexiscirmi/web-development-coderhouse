@@ -6,14 +6,12 @@
   color: rgba(0, 0, 0, 0.6);
 }
 
-html {
+html, body {
   height: 100%;
   max-width: 100%;
 }
 
 body {
-  height: 100%;
-  max-width: 100%;
   display: flex;
   flex-flow: column;
   background-attachment: fixed;
@@ -31,12 +29,12 @@ body.faq {
   background-image: linear-gradient(to bottom right, #ffe1e7, #ffcad4);
 }
 body.nosotros {
-  background-color: #D8E2DC;
-  background-image: linear-gradient(to bottom right, #D8E2DC, #d0f4de);
+  background-color: #d8e2dc;
+  background-image: linear-gradient(to bottom right, #d8e2dc, #d0f4de);
 }
 body.contacto {
-  background-color: #CDB4DB;
-  background-image: linear-gradient(to bottom right, #CDB4DB, #aaa1c8);
+  background-color: #cdb4db;
+  background-image: linear-gradient(to bottom right, #cdb4db, #aaa1c8);
 }
 
 main {
@@ -78,11 +76,10 @@ li {
   display: flex;
   box-shadow: 0 0 5px rgb(0, 0, 0);
   max-width: 85%;
+  margin: auto;
 }
 @media (max-width: 767px) {
   .side-image {
-    display: flex;
-    margin: auto;
     max-width: 60%;
   }
 }
