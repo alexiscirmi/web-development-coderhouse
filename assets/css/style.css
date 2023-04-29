@@ -22,19 +22,15 @@ body.index {
 }
 body.productos {
   background-color: #ffe5d9;
-  background-image: linear-gradient(to bottom right, #ffe5d9, #f7d1cd);
 }
 body.faq {
   background-color: #ffe1e7;
-  background-image: linear-gradient(to bottom right, #ffe1e7, #ffcad4);
 }
 body.nosotros {
   background-color: #d8e2dc;
-  background-image: linear-gradient(to bottom right, #d8e2dc, #d0f4de);
 }
 body.contacto {
   background-color: #cdb4db;
-  background-image: linear-gradient(to bottom right, #cdb4db, #aaa1c8);
 }
 
 main {

@@ -33,22 +33,18 @@ body {
 
   &.productos {
     background-color: $productos-bg-color;
-    background-image: linear-gradient(to bottom right, $productos-bg-color, #f7d1cd);
   }
 
   &.faq {
     background-color: $faq-bg-color;
-    background-image: linear-gradient(to bottom right, $faq-bg-color, #ffcad4);
   }
 
   &.nosotros {
     background-color: $nosotros-bg-color;
-    background-image: linear-gradient(to bottom right, $nosotros-bg-color, #d0f4de);
   }
 
   &.contacto {
     background-color: $contacto-bg-color;
-    background-image: linear-gradient(to bottom right, $contacto-bg-color, #aaa1c8);
   }
 }
 
