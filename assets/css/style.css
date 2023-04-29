@@ -98,6 +98,10 @@ li {
 
 .nav-link-custom {
   font-size: 1.1rem;
+  transition: all 0.25s;
+}
+.nav-link-custom:hover {
+  transform: scale(1.1);
 }
 
 .navbar-brand-custom {
