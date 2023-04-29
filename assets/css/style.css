@@ -234,8 +234,10 @@ li {
   margin-right: 15px;
   transition: all 0.25s;
 }
-.whatsapp-floating-icon:hover {
-  transform: scale(1.2);
+@media (min-width: 768px) {
+  .whatsapp-floating-icon:hover {
+    transform: scale(1.2);
+  }
 }
 
 /* Footer Properties */
@@ -251,8 +253,10 @@ footer ul li {
   padding: 0 10px;
   transition: all 0.25s;
 }
-footer ul li:hover {
-  transform: scale(1.1);
+@media (min-width: 768px) {
+  footer ul li:hover {
+    transform: scale(1.1);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
