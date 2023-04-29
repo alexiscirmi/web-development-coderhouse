@@ -2,6 +2,11 @@
 
 .sp-img {
   box-shadow: 0 0 5px rgba(0, 0, 0, 1);
+  transition: all 0.25s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 
 .starter-packs-table {

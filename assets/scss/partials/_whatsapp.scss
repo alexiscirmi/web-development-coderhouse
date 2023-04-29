@@ -4,4 +4,9 @@
   font-size: 3.5rem;
   left: auto;
   margin-right: 15px;
+  transition: all 0.25s;
+
+  &:hover {
+    transform: scale(1.2);
+  }
 }

@@ -144,6 +144,10 @@ li {
 /* "Productos" webpage Properties */
 .sp-img {
   box-shadow: 0 0 5px rgb(0, 0, 0);
+  transition: all 0.25s;
+}
+.sp-img:hover {
+  transform: scale(1.1);
 }
 
 .starter-packs-table * {
@@ -221,6 +225,10 @@ li {
   font-size: 3.5rem;
   left: auto;
   margin-right: 15px;
+  transition: all 0.25s;
+}
+.whatsapp-floating-icon:hover {
+  transform: scale(1.2);
 }
 
 /* Footer Properties */
@@ -234,6 +242,10 @@ footer ul li {
   margin: 0;
   list-style: none;
   padding: 0 10px;
+  transition: all 0.25s;
+}
+footer ul li:hover {
+  transform: scale(1.1);
 }
 
 /*# sourceMappingURL=style.css.map */

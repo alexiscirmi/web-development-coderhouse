@@ -10,5 +10,10 @@ footer {
     margin: 0;
     list-style: none;
     padding: 0 10px;
+    transition: all 0.25s;
+
+    &:hover {
+      transform: scale(1.1);
+    }
   }
 }
