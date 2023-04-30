@@ -102,3 +102,24 @@ li {
     }
   }
 }
+
+[data-aos="side-image-animation"] {
+  opacity: 0;
+  transform: translateY(100px);
+  transition-property: transform, opacity;
+
+
+  &.aos-animate {
+    opacity: 1;
+    transform: translateY(0);
+
+  }
+
+  @media screen and (min-width: 768px) {
+    transform: translateX(100px);
+
+    &.aos-animate {
+      transform: translateX(0);
+    }
+  }
+}
