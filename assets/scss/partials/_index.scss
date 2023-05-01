@@ -6,17 +6,17 @@
   border-bottom: solid 0.5px rgb(0, 0, 0, 0.1);
 }
 
-.card {
+.card-custom {
   max-width: 18rem;
   box-shadow: 0 0 5px rgba(0, 0, 0, 1);
 }
 
-.card-title {
+.card-title-custom {
   height: 45px;
   word-spacing: -3px;
 }
 
-.card-text {
+.card-text-custom {
   height: 45px;
 }
 
@@ -27,7 +27,7 @@
   height: 55px;
 }
 
-.card-link {
+.card-link-custom {
   transition: all 0.25s;
 
   &:hover {
