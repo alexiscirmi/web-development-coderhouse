@@ -4,8 +4,10 @@
   box-shadow: 0 0 5px rgba(0, 0, 0, 1);
   transition: all 0.25s;
 
-  &:hover {
-    transform: scale(1.1);
+  @media (min-width: 768px) {
+    &:hover {
+      transform: scale(1.1);
+    }
   }
 }
 
@@ -59,14 +61,14 @@
 }
 
 .fa-circle-check {
-  background-color: #D8E2DC;
+  background-color: $circle-check;
   padding: 0;
   border-radius: 100%;
   font-size: 2em;
 }
 
 .fa-circle-xmark {
-  background-color: #f4acb7;
+  background-color: $circle-xmark;
   padding: 0;
   border-radius: 100%;
   font-size: 2em;

@@ -153,8 +153,10 @@ li {
   box-shadow: 0 0 5px rgb(0, 0, 0);
   transition: all 0.25s;
 }
-.sp-img:hover {
-  transform: scale(1.1);
+@media (min-width: 768px) {
+  .sp-img:hover {
+    transform: scale(1.1);
+  }
 }
 
 .starter-packs-table * {
@@ -195,7 +197,7 @@ li {
   }
 }
 .fa-circle-check {
-  background-color: #D8E2DC;
+  background-color: #cce1d5;
   padding: 0;
   border-radius: 100%;
   font-size: 2em;
