@@ -4,11 +4,5 @@
   font-size: 3.5rem;
   left: auto;
   margin-right: 15px;
-  transition: all 0.25s;
-
-  @media (min-width: 768px) {
-    &:hover {
-      transform: scale(1.2);
-    }
-  }
+  @include zoom-in-transition-md;
 }

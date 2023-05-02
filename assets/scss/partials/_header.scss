@@ -11,15 +11,12 @@
 
 .nav-link-custom {
   font-size: 1.1rem;
-  transition: all 0.25s;
-
-  &:hover {
-    transform: scale(1.1);
-  }
+  @include zoom-in-transition;
 }
 
 .navbar-brand-custom {
   font-size: 1.35rem;
+  @include zoom-in-transition;
 }
 
 .logo {

@@ -8,6 +8,26 @@ $contacto-bg-color: #cdb4db;
 $circle-check: #cce1d5;
 $circle-xmark: #f4acb7;
 
+// Mixins
+
+@mixin zoom-in-transition {
+  transition: all 0.25s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+@mixin zoom-in-transition-md {
+  transition: all 0.25s;
+
+  @media (min-width: 768px) {
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+
 /* General Properties */
 
 * {

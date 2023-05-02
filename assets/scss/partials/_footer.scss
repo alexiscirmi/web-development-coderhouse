@@ -10,12 +10,6 @@ footer {
     margin: 0;
     list-style: none;
     padding: 0 10px;
-    transition: all 0.25s;
-
-    @media (min-width: 768px) {
-      &:hover {
-        transform: scale(1.1);
-      }
-    }
+    @include zoom-in-transition-md;
   }
 }
