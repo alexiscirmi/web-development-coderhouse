@@ -1,8 +1,8 @@
 /* Navbar Properties */
 
 .navbar-custom {
-  background-color: #ffd4d9;
-  border-bottom: solid 0.5px rgb(0, 0, 0, 0.1);
+  background-color: $navbar-bg-color;
+  border-bottom: $border;
 }
 
 .nav-item-custom {

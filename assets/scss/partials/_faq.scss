@@ -1,13 +1,24 @@
 /* "Preguntas frecuentes" webpage Properties */
 
-.question {
-  margin-top: 30px;
-  font-weight: bold;
-  font-size: larger;
+.accordion-button-custom,
+.accordion-button-custom:focus,
+.accordion-button-custom:not(.collapsed) {
+  font-size: 1.25rem;
+  color: $font-color;
+  background-color: $faq-bg-color;
+  box-shadow: none;
 }
 
-.answer,
-.answer i,
-.disclaimer {
-  color: rgb(0, 0, 0, 0.4);
+.accordion-item-custom {
+  @extend .accordion-button-custom;
+  border: $border;
+}
+
+.accordion-header-custom {
+  margin: 0;
+}
+
+.accordion-body {
+  color: $font-color-soft;
+  font-size: 1.25rem;
 }

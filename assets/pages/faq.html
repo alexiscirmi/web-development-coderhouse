@@ -65,42 +65,149 @@
     </nav>
   </header>
 
-  <!-- Main text & image -->
+  <!-- Main accordion & image -->
 
   <main class="container-fluid container-lg d-flex flex-wrap flex-row">
 
-    <div class="col-md-7 col-12 order-1 mb-4">
-      <h1>Preguntas frecuentes</h1>
-      <p class="question">¿Qué son los <em>starter packs</em>?</p>
-      <p class="answer">Los <em>starter packs</em> son "paquetes de iniciación", por su traducción del inglés, que traen
-        muchas cosas que los bebés recién nacidos (y los papás) necesitan.</p>
-      <p class="question">¿Qué traen los <em>starter packs</em>?</p>
-      <p class="answer">Tenemos distintos "niveles" de <em>starter packs</em> según tus necesidades. Cada nivel incluye
-        todo lo que traen los anteriores. Te invitamos a hacer clic <a href="productos.html">acá</a> para ver el
-        detalle
-        de cada uno.</p>
-      <p class="question">¿Tienen local físico?</p>
-      <p class="answer">No, trabajamos exclusivamente en línea y realizamos envíos a toda la Argentina.</p>
-      <p class="question">¿Por dónde se realizan los envíos?</p>
-      <p class="answer">Se realizan envíos a todo el territorio argentino por medio de Correo Argentino, otorgándote el
-        número de seguimiento correspondiente.</p>
-      <p class="question">¿Cuánto cuesta el envío?</p>
-      <p class="answer">El envío de tu pedido es <strong style="color: black;">GRATIS</strong>.</p>
-      <p class="question">¿Ofrecen envío internacional?</p>
-      <p class="answer">Por el momento, sólo contamos con envíos nacionales.</p>
-      <p class="question">¿Cómo puedo realizar un pedido?</p>
-      <p class="answer">Actualmente, los pedidos se realizan a través de nuestros <a href="#"
-          onclick="alert('(Link a chat de WhatsApp)')">WhatsApp</a> o <a href="#"
-          onclick="alert('(Link a página de Instagram)')">Instagram</a>. Próximamente se podrán realizar en esta misma
-        página.</p>
-      <p class="question">¿Cuál es el proceso de pago?</p>
-      <p class="answer">El pago se podrá efectuar por medio de un link de Mercado Pago, por transferencia bancaria o por
-        medio de Bitcoin, Ether o USDC. Los datos se facilitarán al realizarse el pedido.</p>
-      <p class="question">¿Puedo personalizar mi propio <em>starter pack</em>?</p>
-      <p class="answer">En caso de necesitarlo, podés solicitar un presupuesto para un <em>starter pack</em>
-        personalizado.</p>
+    <h1 class="col-12">Preguntas frecuentes</h1>
+
+    <!-- Accordion -->
+
+    <div class="accordion accordion-flush col-md-7 col-12 order-1 mb-4" id="accordionFlush">
+
+      <div class="accordion-item accordion-item-custom">
+        <h2 class="accordion-header accordion-header-custom">
+          <button class="accordion-button accordion-button-custom collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            ¿Qué son los Starter Pack?
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlush">
+          <div class="accordion-body">Los Starter Packs son "paquetes de iniciación", por su traducción del
+            inglés, que traen muchas cosas que los bebés recién nacidos (y los papás) necesitan.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item accordion-item-custom">
+        <h2 class="accordion-header accordion-header-custom">
+          <button class="accordion-button accordion-button-custom collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            ¿Qué traen los Starter Packs?
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlush">
+          <div class="accordion-body">Tenemos distintos "niveles" de <em>starter packs</em> según tus necesidades. Cada
+            nivel incluye todo lo que traen los anteriores. Te invitamos a hacer clic <a href="productos.html">acá</a>
+            para ver el detalle de cada uno.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item accordion-item-custom">
+        <h2 class="accordion-header accordion-header-custom">
+          <button class="accordion-button accordion-button-custom collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            ¿Tienen local físico?
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlush">
+          <div class="accordion-body">No, trabajamos exclusivamente en línea y realizamos envíos a toda la Argentina.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item accordion-item-custom">
+        <h2 class="accordion-header accordion-header-custom">
+          <button class="accordion-button accordion-button-custom collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+            ¿Por dónde se realizan los envíos?
+          </button>
+        </h2>
+        <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlush">
+          <div class="accordion-body">Se realizan envíos a todo el territorio argentino por medio de Correo Argentino,
+            otorgándote el
+            número de seguimiento correspondiente.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item accordion-item-custom">
+        <h2 class="accordion-header accordion-header-custom">
+          <button class="accordion-button accordion-button-custom collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+            ¿Cuánto cuesta el envío?
+          </button>
+        </h2>
+        <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlush">
+          <div class="accordion-body">El envío de tu pedido es <strong style="color: black;">GRATIS</strong>.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item accordion-item-custom">
+        <h2 class="accordion-header accordion-header-custom">
+          <button class="accordion-button accordion-button-custom collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+            ¿Ofrecen envío internacional?
+          </button>
+        </h2>
+        <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlush">
+          <div class="accordion-body">Por el momento, sólo contamos con envíos nacionales.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item accordion-item-custom">
+        <h2 class="accordion-header accordion-header-custom">
+          <button class="accordion-button accordion-button-custom collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+            ¿Cómo puedo realizar un pedido?
+          </button>
+        </h2>
+        <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlush">
+          <div class="accordion-body">Actualmente, los pedidos se realizan a través de nuestros <a href="#"
+              onclick="alert('(Link a chat de WhatsApp)')">WhatsApp</a> o <a href="#"
+              onclick="alert('(Link a página de Instagram)')">Instagram</a>. Próximamente se podrán realizar en esta
+            misma
+            página.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item accordion-item-custom">
+        <h2 class="accordion-header accordion-header-custom">
+          <button class="accordion-button accordion-button-custom collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+            ¿Cuál es el proceso de pago?
+          </button>
+        </h2>
+        <div id="flush-collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionFlush">
+          <div class="accordion-body">El pago se podrá efectuar por medio de un link de Mercado Pago, por transferencia
+            bancaria o por
+            medio de Bitcoin, Ether o USDC. Los datos se facilitarán al realizarse el pedido.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item accordion-item-custom">
+        <h2 class="accordion-header accordion-header-custom">
+          <button class="accordion-button accordion-button-custom collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+            ¿Puedo personalizar mi propio Starter Pack?
+          </button>
+        </h2>
+        <div id="flush-collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionFlush">
+          <div class="accordion-body">En caso de necesitarlo, podés solicitar un presupuesto para un Starter
+            Pack
+            personalizado.
+          </div>
+        </div>
+      </div>
 
     </div>
+
+    <!-- Image -->
 
     <div class="col-md-5 col-12 order-2">
       <img class="img-fluid rounded-5 side-image" data-aos="fade-up" data-aos-duration="1000" src="../img/people.webp"

@@ -54,7 +54,7 @@ h4 {
 
 p {
   margin-top: 10px;
-  font-size: larger;
+  font-size: 1.2rem;
   text-align: justify;
 }
 
@@ -65,7 +65,7 @@ a {
 
 li {
   margin-top: 10px;
-  font-size: large;
+  font-size: 1.15rem;
 }
 
 .side-image {
@@ -220,17 +220,31 @@ li {
   color: black;
 }
 
-/* "Preguntas frecuentes" webpage Properties */
-.question {
-  margin-top: 30px;
-  font-weight: bold;
-  font-size: larger;
-}
-
-.answer,
-.answer i,
 .disclaimer {
   color: rgba(0, 0, 0, 0.4);
+}
+
+/* "Preguntas frecuentes" webpage Properties */
+.accordion-button-custom, .accordion-item-custom,
+.accordion-button-custom:focus,
+.accordion-button-custom:not(.collapsed) {
+  font-size: 1.25rem;
+  color: rgba(0, 0, 0, 0.6);
+  background-color: #ffe1e7;
+  box-shadow: none;
+}
+
+.accordion-item-custom {
+  border: solid 0.5px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-header-custom {
+  margin: 0;
+}
+
+.accordion-body {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 1.25rem;
 }
 
 /* WhatsApp button Properties */

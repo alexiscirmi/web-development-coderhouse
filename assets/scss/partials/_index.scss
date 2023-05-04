@@ -1,14 +1,14 @@
 /* Index webpage Properties */
 
 .price-cards {
-  background-color: #ffe5d9;
-  border-top: solid 0.5px rgb(0, 0, 0, 0.1);
-  border-bottom: solid 0.5px rgb(0, 0, 0, 0.1);
+  background-color: $productos-bg-color;
+  border-top: $border;
+  border-bottom: $border;
 }
 
 .card-custom {
   max-width: 18rem;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 1);
+  box-shadow: $box-shadow;
 }
 
 .card-title-custom {
