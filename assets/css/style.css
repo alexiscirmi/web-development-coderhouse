@@ -32,58 +32,61 @@ body.nosotros {
 body.contacto {
   background-color: #cdb4db;
 }
-
-main {
+body.error404 {
+  background-color: #355070;
+  background-image: linear-gradient(to bottom right, #355070, #6d597a);
+}
+body main {
   margin-top: 1.5rem;
   justify-content: start;
   text-align: start;
   margin-bottom: 3rem;
 }
-
-h1,
-h2 {
+body h1,
+body h2 {
   margin-bottom: 1.5rem;
   margin-right: 20px;
   letter-spacing: 1px;
 }
-
-h4 {
+body h4 {
   font-size: 1.25rem;
   font-weight: bold;
 }
-
-p {
+body p {
   margin-top: 10px;
   font-size: 1.2rem;
   text-align: justify;
 }
-
-a {
+body a {
   text-decoration: none;
   color: black;
 }
-
-li {
+body li {
   margin-top: 10px;
   font-size: 1.15rem;
 }
-
-.side-image {
+body .side-image {
   display: flex;
   box-shadow: 0 0 5px rgb(0, 0, 0);
   max-width: 85%;
   margin: auto;
 }
 @media (max-width: 767px) {
-  .side-image {
+  body .side-image {
     max-width: 70%;
   }
 }
 @media (min-width: 768px) {
-  .side-image {
+  body .side-image {
     position: sticky;
     top: 110px;
   }
+}
+body .error404-font {
+  color: #f2e9e4;
+}
+body .error404-link {
+  color: #aaa1c8;
 }
 
 /* Navbar Properties */

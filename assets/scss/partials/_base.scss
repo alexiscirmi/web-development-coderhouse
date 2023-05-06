@@ -6,6 +6,7 @@ $productos-bg-color: #ffe5d9;
 $faq-bg-color: #ffe1e7;
 $nosotros-bg-color: #d8e2dc;
 $contacto-bg-color: #cdb4db;
+$error404-bg-color: #355070;
 $circle-check: #cce1d5;
 $circle-xmark: #f4acb7;
 $font-color: rgb(0, 0, 0, 0.6);
@@ -73,59 +74,72 @@ body {
   &.contacto {
     background-color: $contacto-bg-color;
   }
-}
 
-main {
-  margin-top: 1.5rem;
-  justify-content: start;
-  text-align: start;
-  margin-bottom: 3rem;
-}
+  &.error404 {
+    background-color: $error404-bg-color;
+    background-image: linear-gradient(to bottom right, $error404-bg-color, #6d597a);
+  }
 
-h1,
-h2 {
-  margin-bottom: 1.5rem;
-  margin-right: 20px;
-  letter-spacing: 1px;
-}
+  main {
+    margin-top: 1.5rem;
+    justify-content: start;
+    text-align: start;
+    margin-bottom: 3rem;
+  }
 
-h4 {
-  font-size: 1.25rem;
-  font-weight: bold;
-}
+  h1,
+  h2 {
+    margin-bottom: 1.5rem;
+    margin-right: 20px;
+    letter-spacing: 1px;
+  }
 
-p {
-  margin-top: 10px;
-  font-size: 1.2rem;
-  text-align: justify;
-}
+  h4 {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
 
-a {
-  text-decoration: none;
-  color: black;
-}
+  p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    text-align: justify;
+  }
 
-li {
-  margin-top: 10px;
-  font-size: 1.15rem;
-}
+  a {
+    text-decoration: none;
+    color: black;
+  }
 
-.side-image {
-  display: flex;
-  box-shadow: $box-shadow;
-  max-width: 85%;
-  margin: auto;
+  li {
+    margin-top: 10px;
+    font-size: 1.15rem;
+  }
 
-  @media (max-width: 767px) {
-    & {
-      max-width: 70%;
+  .side-image {
+    display: flex;
+    box-shadow: $box-shadow;
+    max-width: 85%;
+    margin: auto;
+
+    @media (max-width: 767px) {
+      & {
+        max-width: 70%;
+      }
+    }
+
+    @media (min-width: 768px) {
+      & {
+        position: sticky;
+        top: 110px;
+      }
     }
   }
 
-  @media (min-width: 768px) {
-    & {
-      position: sticky;
-      top: 110px;
-    }
+  .error404-font {
+    color: #f2e9e4;
+  }
+
+  .error404-link {
+    color: #aaa1c8;
   }
 }
