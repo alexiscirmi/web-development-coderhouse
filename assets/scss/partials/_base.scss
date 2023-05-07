@@ -36,14 +36,11 @@ $box-shadow: 0 0 5px rgba(0, 0, 0, 1);
 
 /* General Properties */
 
-* {
+html {
   margin: 0;
   padding: 0;
   font-family: 'Didact Gothic', sans-serif;
   color: $font-color;
-}
-
-html {
   height: 100%;
   max-width: 100%;
 }
@@ -134,6 +131,8 @@ body {
       }
     }
   }
+
+  // Error 404 page
 
   .error404-font {
     color: #f2e9e4;
