@@ -37,7 +37,7 @@ body main {
   margin-top: 1.5rem;
   justify-content: start;
   text-align: start;
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
 }
 body h1,
 body h2 {
@@ -65,18 +65,30 @@ body li {
 body .side-image {
   display: flex;
   box-shadow: 0 0 5px rgb(0, 0, 0);
-  max-width: 85%;
+  max-width: 90%;
   margin: auto;
+  position: sticky;
+  top: 16%;
 }
 @media (max-width: 767px) {
   body .side-image {
+    position: static;
     max-width: 70%;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
   body .side-image {
-    position: sticky;
-    top: 110px;
+    top: 30%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  body .side-image {
+    top: 25%;
+  }
+}
+@media (min-width: 1400px) {
+  body .side-image {
+    max-width: 85%;
   }
 }
 body .error404-font {
@@ -90,6 +102,7 @@ body .error404-link {
 .navbar-custom {
   background-color: #ffd4d9;
   border-bottom: solid 0.5px rgba(0, 0, 0, 0.1);
+  opacity: 95%;
 }
 
 .nav-item-custom {
