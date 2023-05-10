@@ -2,10 +2,10 @@
 
 $navbar-bg-color: #ffd4d9;
 $index-bg-color: #e1f3ff;
-$productos-bg-color: #ffe5d9;
-$faq-bg-color: #ffe1e7;
-$nosotros-bg-color: #d8e2dc;
-$contacto-bg-color: #cdb4db;
+$productos-bg-color: #ffe9df;
+$faq-bg-color: #ffe6eb;
+$nosotros-bg-color: #eef5f1;
+$contacto-bg-color: #d6c1e2;
 $error404-bg-color: #355070;
 $circle-check: #cce1d5;
 $circle-xmark: #f4acb7;
@@ -89,6 +89,18 @@ body {
     margin-bottom: 1.5rem;
     margin-right: 20px;
     letter-spacing: 1px;
+
+    @media (max-width: 767px) {
+      & {
+        margin-right: 0;
+        text-align-last: center;
+      }
+    }
+  }
+
+  h3 {
+    @extend h1;
+    letter-spacing: 0;
   }
 
   h4 {
@@ -100,6 +112,12 @@ body {
     margin-top: 10px;
     font-size: 1.2rem;
     text-align: justify;
+
+    @media (max-width: 767px) {
+      & {
+        text-align-last: center;
+      }
+    }
   }
 
   a {

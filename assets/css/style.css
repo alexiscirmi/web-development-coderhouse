@@ -18,16 +18,16 @@ body.index {
   background-image: linear-gradient(to bottom right, #e1f3ff, #ffd4d9);
 }
 body.productos {
-  background-color: #ffe5d9;
+  background-color: #ffe9df;
 }
 body.faq {
-  background-color: #ffe1e7;
+  background-color: #ffe6eb;
 }
 body.nosotros {
-  background-color: #d8e2dc;
+  background-color: #eef5f1;
 }
 body.contacto {
-  background-color: #cdb4db;
+  background-color: #d6c1e2;
 }
 body.error404 {
   background-color: #355070;
@@ -39,11 +39,21 @@ body main {
   text-align: start;
   margin-bottom: 1.5rem;
 }
-body h1,
+body h1, body h3,
 body h2 {
   margin-bottom: 1.5rem;
   margin-right: 20px;
   letter-spacing: 1px;
+}
+@media (max-width: 767px) {
+  body h1, body h3,
+  body h2 {
+    margin-right: 0;
+    text-align-last: center;
+  }
+}
+body h3 {
+  letter-spacing: 0;
 }
 body h4 {
   font-size: 1.25rem;
@@ -53,6 +63,11 @@ body p {
   margin-top: 10px;
   font-size: 1.2rem;
   text-align: justify;
+}
+@media (max-width: 767px) {
+  body p {
+    text-align-last: center;
+  }
 }
 body a {
   text-decoration: none;
@@ -132,7 +147,7 @@ body .error404-link {
 
 /* Index webpage Properties */
 .price-cards {
-  background-color: #ffe5d9;
+  background-color: #ffe9df;
   border-top: solid 0.5px rgba(0, 0, 0, 0.1);
   border-bottom: solid 0.5px rgba(0, 0, 0, 0.1);
 }
@@ -243,7 +258,7 @@ body .error404-link {
 .accordion-button-custom:not(.collapsed) {
   font-size: 1.25rem;
   color: rgba(0, 0, 0, 0.6);
-  background-color: #ffe1e7;
+  background-color: #ffe6eb;
   box-shadow: none;
 }
 
