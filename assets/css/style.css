@@ -250,6 +250,8 @@ body .error404-link {
 
 .disclaimer {
   color: rgba(0, 0, 0, 0.4);
+  font-size: 0.9rem;
+  text-align: center;
 }
 
 /* "Preguntas frecuentes" webpage Properties */
@@ -293,7 +295,7 @@ footer {
   background-color: rgba(0, 0, 0, 0.05);
   border-top: solid 0.5px rgba(0, 0, 0, 0.1);
   margin-top: auto;
-  padding: 0.5rem;
+  padding: 1rem;
 }
 footer ul li {
   margin: 0;
@@ -308,6 +310,13 @@ footer ul li {
 }
 footer a {
   color: rgba(0, 0, 0, 0.6);
+}
+
+.social-media-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
