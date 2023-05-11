@@ -49,7 +49,7 @@ body h2 {
   body h1, body h3,
   body h2 {
     margin-right: 0;
-    text-align-last: center;
+    text-align: center;
   }
 }
 body h3 {
