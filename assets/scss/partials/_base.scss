@@ -53,7 +53,7 @@ body {
 
   &.index {
     background-color: $index-bg-color;
-    background-image: linear-gradient(to bottom right, $index-bg-color, #ffd4d9);
+    background-image: linear-gradient(to bottom right, $index-bg-color, $navbar-bg-color);
   }
 
   &.productos {
