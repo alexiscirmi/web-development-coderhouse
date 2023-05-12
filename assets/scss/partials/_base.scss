@@ -136,7 +136,7 @@ body {
     max-width: 90%;
     margin: auto;
     position: sticky;
-    top: 16%;
+    top: 15%;
 
     @media (max-width: 767px) {
       & {
@@ -147,13 +147,13 @@ body {
 
     @media (min-width: 768px) and (max-width:991px) {
       & {
-        top: 30%;
+        top: 25%;
       }
     }
 
     @media (min-width: 992px) and (max-width:1199px) {
       & {
-        top: 25%;
+        top: 20%;
       }
     }
 

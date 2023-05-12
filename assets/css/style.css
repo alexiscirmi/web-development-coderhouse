@@ -83,7 +83,7 @@ body .side-image {
   max-width: 90%;
   margin: auto;
   position: sticky;
-  top: 16%;
+  top: 15%;
 }
 @media (max-width: 767px) {
   body .side-image {
@@ -93,12 +93,12 @@ body .side-image {
 }
 @media (min-width: 768px) and (max-width: 991px) {
   body .side-image {
-    top: 30%;
+    top: 25%;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   body .side-image {
-    top: 25%;
+    top: 20%;
   }
 }
 @media (min-width: 1400px) {
@@ -272,9 +272,10 @@ body .error404-link {
   margin: 0;
 }
 
-.accordion-body {
+.accordion-body-custom {
   color: rgba(0, 0, 0, 0.4);
   font-size: 1.25rem;
+  text-align: justify;
 }
 
 /* WhatsApp button Properties */
