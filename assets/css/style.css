@@ -83,7 +83,7 @@ body .side-image {
   max-width: 90%;
   margin: auto;
   position: sticky;
-  top: 15%;
+  top: 150px;
 }
 @media (max-width: 767px) {
   body .side-image {
@@ -93,12 +93,12 @@ body .side-image {
 }
 @media (min-width: 768px) and (max-width: 991px) {
   body .side-image {
-    top: 25%;
+    top: 220px;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   body .side-image {
-    top: 20%;
+    top: 180px;
   }
 }
 @media (min-width: 1400px) {
