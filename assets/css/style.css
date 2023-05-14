@@ -189,7 +189,7 @@ body .error404-link {
   box-shadow: 0 0 5px rgb(0, 0, 0);
   transition: all 0.25s;
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .sp-img:hover {
     transform: scale(1.1);
   }
@@ -252,7 +252,7 @@ body .error404-link {
   color: black;
   transition: all 0.25s;
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .price:hover {
     transform: scale(1.1);
   }
@@ -295,7 +295,7 @@ body .error404-link {
   margin-right: 15px;
   transition: all 0.25s;
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .whatsapp-floating-icon:hover {
     transform: scale(1.1);
   }
@@ -314,7 +314,7 @@ footer ul li {
   padding: 0 10px;
   transition: all 0.25s;
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   footer ul li:hover {
     transform: scale(1.1);
   }
