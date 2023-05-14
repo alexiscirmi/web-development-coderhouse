@@ -9,8 +9,8 @@ $contacto-bg-color: #d6c1e2;
 $error404-bg-color: #355070;
 $circle-check: #cce1d5;
 $circle-xmark: #f4acb7;
-$font-color: rgb(0, 0, 0, 0.6);
-$font-color-soft: rgba(0, 0, 0, 0.4);
+$font-color: rgb(0, 0, 0, 0.65);
+$font-color-soft: rgba(0, 0, 0, 0.45);
 $border: solid 0.5px rgb(0, 0, 0, 0.1);
 $box-shadow: 0 0 5px rgba(0, 0, 0, 1);
 
@@ -128,6 +128,10 @@ body {
   li {
     margin-top: 10px;
     font-size: 1.15rem;
+  }
+
+  svg {
+    color: $font-color-soft;
   }
 
   .side-image {

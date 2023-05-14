@@ -12,10 +12,6 @@ footer {
     padding: 0 10px;
     @include zoom-in-transition-md;
   }
-
-  & a {
-    color: $font-color;
-  }
 }
 
 .social-media-list {

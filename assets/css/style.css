@@ -3,7 +3,7 @@ html, body {
   font-family: "Didact Gothic", sans-serif;
   margin: 0;
   padding: 0;
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.65);
   height: 100%;
   max-width: 100%;
 }
@@ -76,6 +76,9 @@ body a {
 body li {
   margin-top: 10px;
   font-size: 1.15rem;
+}
+body svg {
+  color: rgba(0, 0, 0, 0.45);
 }
 body .side-image {
   display: flex;
@@ -163,6 +166,7 @@ body .error404-link {
 }
 
 .card-text-custom {
+  color: rgba(0, 0, 0, 0.65);
   height: 45px;
 }
 
@@ -246,10 +250,16 @@ body .error404-link {
   font-size: 1.5rem;
   font-weight: bold;
   color: black;
+  transition: all 0.25s;
+}
+@media (min-width: 768px) {
+  .price:hover {
+    transform: scale(1.1);
+  }
 }
 
 .disclaimer {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.45);
   font-size: 0.9rem;
   text-align: center;
 }
@@ -259,7 +269,7 @@ body .error404-link {
 .accordion-button-custom:focus,
 .accordion-button-custom:not(.collapsed) {
   font-size: 1.25rem;
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.65);
   background-color: #ffe6eb;
   box-shadow: none;
 }
@@ -273,7 +283,7 @@ body .error404-link {
 }
 
 .accordion-body-custom {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.45);
   font-size: 1.25rem;
   text-align: justify;
 }
@@ -308,9 +318,6 @@ footer ul li {
   footer ul li:hover {
     transform: scale(1.1);
   }
-}
-footer a {
-  color: rgba(0, 0, 0, 0.6);
 }
 
 .social-media-list {

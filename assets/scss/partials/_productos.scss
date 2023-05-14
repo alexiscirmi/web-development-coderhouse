@@ -72,6 +72,7 @@
   font-size: 1.5rem;
   font-weight: bold;
   color: black;
+  @include zoom-in-transition-md
 }
 
 .disclaimer {
