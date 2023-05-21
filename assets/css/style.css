@@ -1,5 +1,6 @@
 /* General Properties */
-html, body {
+html,
+body {
   font-family: "Didact Gothic", sans-serif;
   margin: 0;
   padding: 0;
@@ -8,10 +9,13 @@ html, body {
   max-width: 100%;
 }
 
+.html-index {
+  height: auto;
+}
+
 body {
   display: flex;
   flex-flow: column;
-  background-attachment: fixed;
 }
 body.index {
   background-color: #e1f3ff;
