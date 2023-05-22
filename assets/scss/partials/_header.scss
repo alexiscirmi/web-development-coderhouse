@@ -17,7 +17,7 @@
 
 .navbar-brand-custom {
   font-size: 1.35rem;
-  @include zoom-in-transition;
+  @include zoom-in-transition-pc;
 }
 
 .logo {

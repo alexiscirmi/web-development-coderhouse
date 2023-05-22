@@ -143,8 +143,10 @@ body .error404-link {
   font-size: 1.35rem;
   transition: all 0.25s;
 }
-.navbar-brand-custom:hover {
-  transform: scale(1.1);
+@media (min-width: 1200px) {
+  .navbar-brand-custom:hover {
+    transform: scale(1.1);
+  }
 }
 
 .logo {
