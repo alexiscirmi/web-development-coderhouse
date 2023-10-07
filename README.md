@@ -8,4 +8,4 @@ https://cirmialexis.github.io/coderhouse-web-development-project/
 
 GNU Affero General Public License v3.0
 
-![Coderhouse_Desarrollo_Web_certificado](https://github.com/cirmialexis/coderhouse-web-development-project/assets/1320538/5c9201e9-61fb-4a52-be3c-91c95cc1ef12)
+![Certificado Desarrollo Web](https://github.com/cirmialexis/coderhouse-web-development-project/assets/1320538/93522b2d-533e-483d-bff9-7b7bdcd74f20)
